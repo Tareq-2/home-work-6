@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:lightgray;
+    border-radius: 30px;
+    
+}
+li{
+    display: inline-block;
+    font-size: large;
+    padding: 15px;
+    margin: 0px 20px;
+}
+a{
+    display: inline-block;
+    padding: 15px;
+    color:black;
+    transition: .5s;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: red;
+    color: white;
+
+}
